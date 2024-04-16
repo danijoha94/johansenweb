@@ -5,90 +5,48 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
+        <div>Daniel Johansen</div>
       </div>
 
       <div className={styles.center}>
         <Image
           className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
+          src="/logo.png"
+          alt="Johansen Web Logo"
+          width={257}
+          height={133}
           priority
         />
       </div>
 
       <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
+        <span className={styles.card}>
+          <h2>Nettsider</h2>
+          <p>Vi hjelper deg å være synlig på nett</p>
+        </span>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
+        <span className={styles.card}>
+          <h2>E-post</h2>
+          <p>Trenger du hjelp til oppsett av e-post?</p>
+        </span>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
+        <span className={styles.card}>
+          <h2>Domene</h2>
+          <p>Bestilling og forvalting av ditt domene</p>
+        </span>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
+        <span className={styles.card}>
+          <h2>Kontakt</h2>
+          <p>Daniel Johansen</p>
           <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
+            E-post:
+            <a href="mailto:danijoha@live.no"> danijoha@live.no</a>
           </p>
-        </a>
+          <p>
+            Telefon:
+            <a href="tel:004792057220"> +47 920 57 220</a>
+          </p>
+        </span>
       </div>
     </main>
   );
